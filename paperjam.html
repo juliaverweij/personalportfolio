@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="1.css">
+    <link href='https://fonts.googleapis.com/css?family=PT Serif' rel='stylesheet'>
+    <link rel="icon" href="pictures/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div id="mySidepanel" class="leftnavigation">
+        <a class="juliaverweij" href="julia.html">Julia Verweij</a>
+        <br><br><br>
+        <b>Archive</b>
+        <br><br>
+        <li><a href="gallery.html">&nbsp;&nbsp;Gallery</a></li>
+        <li><a href="portraits.html">&nbsp;&nbsp;Portraits</a></li>
+        <li><a href="coffee.html">&nbsp;&nbsp;Title Unknown / Coffee</a></li>
+        <li><a href="navigating-navigation.html">&nbsp;&nbsp;Navigating Navigation</a></li>
+        <li><a href="unfamiliar.html">&nbsp;&nbsp;(Un)familiar</a></li>
+        <li><a href="nerves-common-sense.html">&nbsp;&nbsp;Nerves &amp; Common Sense</a></li>
+        <li><a href="one-step-at-a-time.html">&nbsp;&nbsp;One Step at a Time</a></li>
+        <li><a href="do-you-have-the-time.html">&nbsp;&nbsp;Do You Have the Time?</a></li>
+        <li><a href="frustratie,opluchting.html">&nbsp;&nbsp;Frustratie, Opluchting &nbsp; &nbsp;</a></li>
+        <li><a href="black-on-black.html">&nbsp;&nbsp;Black on Black</a></li>
+        <li><a href="doors.html">&nbsp;&nbsp;Doors</a></li>
+        <br>
+        <b>Ongoing</b>
+        <br><br>
+        <b><li><a rel="history" href="paperjam.html">&nbsp;&nbsp;PAPERJAM</a></b>
+        <br><br><br>
+        <a href="index.html">Home</a>
+    </div>
+    <button class="openbtn" id="btn" onclick="toggleNav()">&#9776; </button>
+
+    <div class="mainpage">
+        <div class="title">PAPERJAM</div>
+        <br>
+        <div class="descriptionpaperjam">
+            PAPERJAM is a <i>collaborative</i> project that aims to open up a <i>platform for students</i> to sell their creative work
+            at a fair price. This project started from a mutual excitement of wanting to sell our work and wanting to
+            start building a <i>network</i> for ourselves. The previous year this translated into a <i>website</i>, this year we
+            are going physical with a <i>market</i>.
+
+            <div class="notes">
+                <a href="https://paperjamstudio.com" target="_blank">https://paperjamstudio.com</a>
+                <br>
+                Together with Anne-Sophie Berting (and previously also with Joshua van Blijderveen) 
+            </div>
+       </div>
+
+        <div class="row">
+            <div style="--ratio: 1.413 / 1;" class="item">
+                <img src="pictures/work/poster001.jpg">
+            </div>
+            <div style="--ratio: 1.5 / 1;" class="item">
+                <img src="pictures/work/IMG_7921.jpg">
+            </div>
+        </div>
+        <div class="row">
+            <div style="--ratio: 1.5 / 1;" class="item">
+                <img src="pictures/work/DSCF6116.JPG">
+            </div>
+        </div>
+        <div class="row">
+            <div style="--ratio: 1.5 / 1;" class="item">
+                <img src="pictures/work/DSCF6156.JPG">
+            </div>
+            <div style="--ratio: 1 / 1.335;" class="item">
+                <img src="pictures/work/IMG_7739.jpg">
+            </div>
+        </div>
+        </div>
+    </div>
+    <script>
+        function toggleNav(){
+          document.getElementById("mySidepanel").classList.toggle('open');
+          document.getElementById("btn").classList.toggle('open');
+        }
+      </script>
+</body>
+</html>
+

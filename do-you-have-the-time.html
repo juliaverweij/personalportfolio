@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="1.css">
+    <link href='https://fonts.googleapis.com/css?family=PT Serif' rel='stylesheet'>
+    <link rel="icon" href="pictures/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div id="mySidepanel" class="leftnavigation">
+        <a class="juliaverweij" href="julia.html">Julia Verweij</a>
+        <br><br><br>
+        <b>Archive</b>
+        <br><br>
+        <li><a href="gallery.html">&nbsp;&nbsp;Gallery</a></li>
+        <li><a href="portraits.html">&nbsp;&nbsp;Portraits</a></li>
+        <li><a href="coffee.html">&nbsp;&nbsp;Title Unknown / Coffee</a></li>
+        <li><a href="navigating-navigation.html">&nbsp;&nbsp;Navigating Navigation</a></li>
+        <li><a href="unfamiliar.html">&nbsp;&nbsp;(Un)familiar</a></li>
+        <li><a href="nerves-common-sense.html">&nbsp;&nbsp;Nerves &amp; Common Sense</a></li>
+        <li><a href="one-step-at-a-time.html">&nbsp;&nbsp;One Step at a Time</a></li>
+        <b><li><a href="do-you-have-the-time.html">&nbsp;&nbsp;Do You Have the Time?</a></li></b>
+        <li><a href="frustratie,opluchting.html">&nbsp;&nbsp;Frustratie, Opluchting &nbsp; &nbsp;</a></li>
+        <li><a href="black-on-black.html">&nbsp;&nbsp;Black on Black</a></li>
+        <li><a href="doors.html">&nbsp;&nbsp;Doors</a></li>
+        <br>
+        <b>Ongoing</b>
+        <br><br>
+        <li><a rel="history" href="paperjam.html">&nbsp;&nbsp;PAPERJAM</a>
+        <br><br><br>
+        <a href="index.html">Home</a>
+    </div>
+    <button class="openbtn" id="btn" onclick="toggleNav()">&#9776; </button>
+
+    <div class="mainpage">
+        <div class="title">Do You Have the Time?</div>
+        <br>
+        <div class="descriptioncake">
+            A <i>collaborative</i> short film using found footage to question the concept of convenience.
+            Do You Have The Time? aims to explore <i>modern convenience</i> through the lens of different ways to make a cake.
+            The three methods are juxtaposed next to each other to highlight the ways in which some are faster, while others allow you to have more personal input into the final product.
+            
+            <div class="notes">
+                Together with Mars Yamaguchi and Isabel van der Stadt
+            </div>
+        </div>
+
+        <div class="row">
+            <div style="--ratio: 1.54 / 1;" class="item">
+                <img src="pictures/work/Screenshot 2024-10-07 at 21.25.01.png" width="500" height="600">
+            </div>
+            <div style="--ratio: 1.54 / 1;" class="item">
+                <img src="pictures/work/Screenshot 2024-10-07 at 21.25.30.png" width="500" height="600">
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div style="--ratio: 1.5 / 1;" class="item">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/0WZfjf93plE?si=Po6ON_XEEdEnLRoa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="row">
+            <div style="--ratio: 1.54 / 1;" class="item">
+                <img src="pictures/work/Screenshot 2024-10-07 at 21.26.12.png" width="500" height="600">
+            </div>
+            <div style="--ratio: 1.54 / 1;" class="item">
+                <img src="pictures/work/Screenshot 2024-10-07 at 21.26.42.png" width="500" height="600">
+            </div>
+        </div>
+
+        <div class="row">
+            <div style="--ratio: 1.54 / 1;" class="item">
+                <img src="pictures/work/Screenshot 2024-10-07 at 21.27.58.png" width="500" height="600">
+            </div>
+        </div>
+    </div>
+    <script>
+        function toggleNav(){
+          document.getElementById("mySidepanel").classList.toggle('open');
+          document.getElementById("btn").classList.toggle('open');
+        }
+      </script>
+</body>
+</html>
+

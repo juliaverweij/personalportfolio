@@ -1,0 +1,408 @@
+body{
+    font-family: "PT Serif";
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(39, 27, 211);
+}
+
+::selection {
+  color: hotpink;
+  background: rgb(39, 27, 211);;
+}
+
+a:link, a:visited, a:active{
+  color: rgb(39, 27, 211);
+  text-decoration: none;
+}
+
+a:hover{
+  color:cornflowerblue;
+  font-style: italic;
+}
+
+.juliaverweij{
+  font-size: 2.4rem;
+}
+
+.leftnavigation{
+    color: rgb(39, 27, 211);
+    list-style-type: none;
+    height: 100%;
+    width: 18rem;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    font-size: 1.1rem;
+}
+
+.openbtn {
+  display: none;
+}
+
+.mainpage{
+    margin-left: 18rem;
+    padding-top: 1.6rem;
+    padding-right: 1rem;
+    text-align: justify;
+}
+
+.title{
+  text-align: right;
+  padding-right: 1rem;
+  font-size: 2.4rem;
+}
+
+.about{
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  font-size: 2.4rem;
+}
+
+.about img{
+  margin-left: 2rem;
+  width: 38%;
+  float: right;
+}
+
+.surprise:hover{
+  font-style: italic;
+  color:cornflowerblue;
+}
+
+#surpriseId{
+  display: none;
+  position: absolute;
+  top: 50vh;
+  left: 60vw;
+  z-index: 1000;
+  min-width: 15rem;
+  min-height: 5rem;
+  padding: 2rem;
+  font-size: 1rem;
+  color: blue;
+  text-align: center;
+  background-color: hotpink;
+  border-radius: .5rem;
+}
+
+#surpriseId.show {
+  display: block;
+}
+
+.notes{
+  margin-top: 3rem;
+  font-size: 1.1rem;
+}
+
+.descriptiongallery{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  font-size: 2.4rem;
+}
+
+.descriptionportraits{
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  font-size: 2.4rem;
+}
+
+.descriptioncoffee{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  margin-left: 15rem;
+  margin-right: 3rem;
+  font-size: 2.4rem;
+}
+
+.descriptionnavigating{
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  margin-left: 1rem;
+  margin-right: 16rem;
+  font-size: 2.4rem;
+}
+
+.descriptionunfamiliar{
+  margin-top: 8rem;
+  margin-bottom: 3rem;
+  margin-left: 8rem;
+  margin-right: 10rem;
+  font-size: 2.4rem;
+}
+
+.descriptionnerves{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  margin-left: 15rem;
+  margin-right: 5rem;
+  font-size: 2.4rem;
+}
+
+.descriptiononestep{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 6rem;
+  margin-right: 12rem;
+  font-size: 2.4rem;
+}
+
+.descriptioncake{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  margin-left: 16rem;
+  margin-right: 3rem;
+  font-size: 2.4rem;
+}
+
+.descriptionfrustratie{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  margin-left: 18rem;
+  margin-right: 3rem;
+  font-size: 2.4rem;
+}
+
+.descriptionblack{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+  margin-right: 16rem;
+  font-size: 2.4rem;
+}
+
+.descriptiondoors{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  margin-left: 15rem;
+  margin-right: 3rem;
+  font-size: 2.4rem;
+}
+
+.descriptionpaperjam{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  margin-left: 1rem;
+  margin-right: 8rem;
+  font-size: 2.4rem;
+}
+
+.homepage img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+  }
+
+.homepage img:hover{
+    z-index: 100000;
+    transform: scale(0.92);
+}
+  
+* {
+    box-sizing: border-box;
+  }
+  
+.row {
+	display: flex;
+	gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.item {
+	flex-basis: 0;
+	flex-grow: calc(var(--ratio));
+	aspect-ratio: var(--ratio);
+}
+
+.item img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+
+@media only screen and (max-width: 850px) {
+    a:hover {
+    font-style: italic;
+    color:cornflowerblue
+  }
+  .mainpage{
+    margin-left: 0;
+    padding: 2rem;
+    text-align: justify;
+  }
+
+  .description img {
+    width: 100%;
+  }
+
+  .leftnavigation {
+    top: 0;
+    left: -10rem;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    transition: 0.5s;
+  }
+
+  .leftnavigation a {
+    padding: 0.2rem;
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgb(39, 27, 211);
+    display: block;
+  }
+
+  .openbtn {
+    display: inline;
+    z-index: 9999;
+    font-size: 1.5rem;
+    color: rgb(39, 27, 211);
+    background-color: #ffffff00;
+    border: none;
+    position: absolute;
+    top: 2rem;
+    transition: 0.5s;
+  }
+  
+  .openbtn:hover{
+    color: cornflowerblue;
+  }
+  
+  .openbtn.open{
+    position: absolute;
+    text-align: center;
+    top: 2rem;
+    transform: translate(11rem, 0) rotate(90deg);
+  }
+  
+  .leftnavigation.open{
+    width: 15rem;
+    transform: translate(10rem, 0);
+  }
+
+  .row{
+    display: block;
+  }
+
+  .item{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .title{
+    margin-top: -0.8rem;
+    text-align: right;
+    margin-right: -1.5rem;
+    font-size: 2rem;
+  }
+
+  .descriptiongallery{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+  }
+  
+  .descriptionportraits{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+  }
+  
+  .descriptioncoffee{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+  }
+  
+  .descriptionnavigating{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+  }
+  
+  .descriptionunfamiliar{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+  }
+  
+  .descriptionnerves{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+  }
+  
+  .descriptiononestep{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+  }
+  
+  .descriptioncake{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+  }
+  
+  .descriptionfrustratie{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+  }
+  
+  .descriptionblack{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+  }
+  
+  .descriptiondoors{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+  }
+  
+  .descriptionpaperjam{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+  }
+   
+}
