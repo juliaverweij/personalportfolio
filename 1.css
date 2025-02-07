@@ -87,10 +87,10 @@ a:hover{
   display: none;
   position: absolute;
   top: 50vh;
-  left: 60vw;
+  left: 55vw;
   z-index: 1000;
-  min-width: 15rem;
-  min-height: 5rem;
+  width: 35rem;
+  height: 20rem;
   padding: 2rem;
   font-size: 1rem;
   color: blue;
@@ -100,7 +100,15 @@ a:hover{
 }
 
 #surpriseId.show {
-  display: block;
+  display: grid;
+}
+
+#surpriseId img{
+  padding: 1rem;
+  margin: auto;
+  vertical-align: center;
+  width: 75%;
+  height: auto;
 }
 
 .notes{
@@ -263,8 +271,14 @@ a:hover{
   }
 
   #surpriseId{
-    top: 50vh;
-    left: 32vw;
+    display: none;
+    position: absolute;
+    top: 65vh;
+    left: 25vw;
+    z-index: 1000;
+    width: 22rem;
+    height: 18rem;
+    padding: 2rem;
   }
 
   .leftnavigation {
