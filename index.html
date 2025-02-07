@@ -33,7 +33,7 @@
         <br><br><br>
         <a href="index.html">Home</a>
         <br>
-        <p id="demo">Random Project!</p>
+        <p id="demo"></p>
     </div>
     <button class="openbtn" id="btn" onclick="toggleNav()">&#9776; </button>
 
@@ -107,11 +107,18 @@
       </div>
   </div>
 
-    <script src="script.js">
+    <script>
       function toggleNav(){
         document.getElementById("mySidepanel").classList.toggle('open');
         document.getElementById("btn").classList.toggle('open');
       }
+      let text;
+      if (Math.random() < 0.5) {
+        text = "<a href='https://juliaverweij.com/coffee.html'>Random Project</a>";
+      } else {
+        text = "<a href='https://juliaverweij.com/paperjam.html'>Random Project</a>";
+      }
+      document.getElementById("demo").innerHTML = text;
     </script>
 </body>
 </html>
