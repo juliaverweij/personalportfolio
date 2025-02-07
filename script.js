@@ -4,7 +4,7 @@ function toggleNav(){
   }
 
 
-  /*let text;
+let text;
   if (Math.random() < 0.5) {
     text = "<a href='https://juliaverweij.com/coffee.html'>Random Project!</a>";
   } else if (Math.random() < 1) {
@@ -30,7 +30,7 @@ function toggleNav(){
   } else {
     text = "<a href='https://juliaverweij.com/paperjam.html'>Random Project!</a>";
   }
-  document.getElementById("demo").innerHTML = text;*/
+  document.getElementById("demo").innerHTML = text;
 
 /*var links = [
     "https://juliaverweij.com/coffee.html",
@@ -45,7 +45,7 @@ function toggleNav(){
     "https://juliaverweij.com/portraits.html",
     "https://juliaverweij.com/unfamiliar.html",
     "https://juliaverweij.com/paperjam.html",
-];*/ 
+]; 
 
 function generateRandomLink(){
     var random = Math.floor(Math.random() * links.length);
@@ -54,7 +54,7 @@ function generateRandomLink(){
 
 window.open(generateRandomLink(), "_self");
 
-
+*/
 
 const surprise = document.getElementById("surpriseId");
 
