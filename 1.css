@@ -301,9 +301,9 @@ a:hover{
     margin-bottom: 1rem;
   }
 
-  #website{
-    transform: scale(0.5);
-  }
+  /*#website{
+    transform-content: scale-content(0.5);
+  }*/
 
   .title{
     margin-top: -0.8rem;
