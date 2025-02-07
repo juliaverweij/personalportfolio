@@ -15,8 +15,8 @@ surprise.addEventListener('click', (event) => event.stopPropagation());
 
 let text;
 if (Math.random() < 0.5) {
-  text = "<a href='juliaverweij.com/coffee.html'>Random Project</a>";
+  text = "<a href='https://juliaverweij.com/coffee.html'>Random Project</a>";
 } else {
-  text = "<a href='juliaverweij.com/paperjam.html'>Random Project</a>";
+  text = "<a href='https://juliaverweij.com/paperjam.html'>Random Project</a>";
 }
 document.getElementById("demo").innerHTML = text;
