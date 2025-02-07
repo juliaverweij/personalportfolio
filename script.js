@@ -8,7 +8,7 @@ let links = [
     "https://juliaverweij.com/doors.html",
     "https://juliaverweij.com/paperjam.html",,
     "https://juliaverweij.com/black-on-black.html",
-    "https://juliaverweij.com/do-you-have-time.html",
+    "https://juliaverweij.com/do-you-have-the-time.html",
     "https://juliaverweij.com/frustratie,opluchting.html",
     "https://juliaverweij.com/gallery.html",
     "https://juliaverweij.com/navigating-navigation.html",
