@@ -294,6 +294,7 @@ a:hover{
     padding-top: 2rem;
     padding-left: 1rem;
     transition: 0.5s;
+    line-height: 1rem;
   }
 
   .leftnavigation a {
