@@ -242,6 +242,7 @@ a:hover{
     font-style: italic;
     color:cornflowerblue
   }
+
   .mainpage{
     margin-left: 0;
     padding: 2rem;
@@ -250,6 +251,20 @@ a:hover{
 
   .description img {
     width: 100%;
+  }
+
+  .about{
+    font-size: 1.4rem;
+  }
+  
+  .about img{
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  #surpriseId{
+    top: 50vh;
+    left: 32vw;
   }
 
   .leftnavigation {
@@ -309,11 +324,6 @@ a:hover{
   .item{
     width: 100%;
     margin-bottom: 1rem;
-  }
-
-  #surpriseId{
-    top: 60vh;
-    left: 20vw;
   }
 
   .title{
