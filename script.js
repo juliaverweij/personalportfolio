@@ -32,7 +32,7 @@ function toggleNav(){
   }
   document.getElementById("demo").innerHTML = text;*/
 
-var links = [
+/*var links = [
     "https://juliaverweij.com/coffee.html",
     "https://juliaverweij.com/doors.html",
     "https://juliaverweij.com/black-on-black.html",
@@ -45,7 +45,7 @@ var links = [
     "https://juliaverweij.com/portraits.html",
     "https://juliaverweij.com/unfamiliar.html",
     "https://juliaverweij.com/paperjam.html",
-]; 
+];*/ 
 
 function generateRandomLink(){
     var random = Math.floor(Math.random() * links.length);
