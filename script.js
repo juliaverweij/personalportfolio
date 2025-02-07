@@ -1,7 +1,7 @@
-window.addEventListener("beforeunload", function () {
+/*window.addEventListener("beforeunload", function () {
     document.body.classList.add("animate-out");
   });
-  
+  */
   
 const surprise = document.getElementById("surpriseId");
 
