@@ -253,7 +253,7 @@ a:hover{
 
   .mainpage{
     margin-left: 0;
-    padding: 1rem;
+    padding: 2rem;
     text-align: justify;
   }
 
@@ -291,7 +291,7 @@ a:hover{
     z-index: 1;
     background-color: #ffffff;
     overflow-x: hidden;
-    padding-top: 3rem;
+    padding-top: 2rem;
     padding-left: 1rem;
     transition: 0.5s;
     line-height: 1rem;
@@ -346,7 +346,7 @@ a:hover{
     margin-top: -0.8rem;
     text-align: right;
     margin-right: -1.5rem;
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
 
   .descriptiongallery{
