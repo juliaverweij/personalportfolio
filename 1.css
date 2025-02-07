@@ -302,7 +302,7 @@ a:hover{
   }
 
   #website{
-    transform: scale(0.5)
+    transform: scale(0.5);
   }
 
   .title{
