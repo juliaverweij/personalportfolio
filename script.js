@@ -13,23 +13,14 @@ window.onclick = (event) => {
 surprise.addEventListener('click', (event) => event.stopPropagation());
 
 
-function openSite() {
-    var links = [
-                  "google.com",
-                  "youtube.com",
-                  "reddit.com",
-                  "apple.com"]
-    
-                openSite = function() {
-                  // get a random number between 0 and the number of links
-                  var randIdx = Math.random() * links.length;
-                  // round it, so it can be used as array index
-                  randIdx = parseInt(randIdx, 10);
-                  // construct the link to be opened
-                  var link = 'http://' + links[randIdx];
-                  };
-                  
-        return link;
-        
-        document.getElementById("link").innerHTML = openSite();
-    }
+var sites = [
+    'http://www.google.com',
+    'http://www.stackoverflow.com',
+    'http://www.example.com',
+    'http://www.youtube.com'
+];
+
+function randomSite() {
+    var i = parseInt(Math.random() * sites.length);
+    location.href = sites[i];
+}
