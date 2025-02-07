@@ -4,7 +4,7 @@ function toggleNav(){
   }
 
 
-  let text;
+  /*let text;
   if (Math.random() < 0.5) {
     text = "<a href='https://juliaverweij.com/coffee.html'>Random Project!</a>";
   } else if (Math.random() < 1) {
@@ -30,10 +30,33 @@ function toggleNav(){
   } else {
     text = "<a href='https://juliaverweij.com/paperjam.html'>Random Project!</a>";
   }
-  document.getElementById("demo").innerHTML = text;
-  
+  document.getElementById("demo").innerHTML = text;*/
 
-  const surprise = document.getElementById("surpriseId");
+var links = [
+    "https://juliaverweij.com/coffee.html",
+    "https://juliaverweij.com/doors.html",
+    "https://juliaverweij.com/black-on-black.html",
+    "https://juliaverweij.com/frustratie,opluchting.html",
+    "https://juliaverweij.com/gallery.html",
+    "https://juliaverweij.com/index.html",
+    "https://juliaverweij.com/navigating-navigation.html",
+    "https://juliaverweij.com/nerves-common-sense.html",
+    "https://juliaverweij.com/one-step-at-a-time.html",
+    "https://juliaverweij.com/portraits.html",
+    "https://juliaverweij.com/unfamiliar.html",
+    "https://juliaverweij.com/paperjam.html",
+]; 
+
+function generateRandomLink(){
+    var random = Math.floor(Math.random() * links.length);
+    return random;
+}
+
+window.open(generateRandomLink(), "_self");
+
+
+
+const surprise = document.getElementById("surpriseId");
 
 const toggleSurprise = () => surprise.classList.toggle("show");
 
