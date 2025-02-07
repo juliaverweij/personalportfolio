@@ -20,3 +20,8 @@ if (Math.random() < 0.5) {
   text = "<a href='https://juliaverweij.com/paperjam.html'>Random Project</a>";
 }
 document.getElementById("demo").innerHTML = text;
+
+function toggleNav(){
+    document.getElementById("mySidepanel").classList.toggle('open');
+    document.getElementById("btn").classList.toggle('open');
+  }
