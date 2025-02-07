@@ -13,14 +13,10 @@ window.onclick = (event) => {
 surprise.addEventListener('click', (event) => event.stopPropagation());
 
 
-var sites = [
-    'http://www.google.com',
-    'http://www.stackoverflow.com',
-    'http://www.example.com',
-    'http://www.youtube.com'
-];
-
-function randomSite() {
-    var i = parseInt(Math.random() * sites.length);
-    location.href = sites[i];
+let text;
+if (Math.random() < 0.5) {
+  text = "<a href='coffee.html'>Random Project</a>";
+} else {
+  text = "<a href='paperjam.html'>Random Project</a>";
 }
+document.getElementById("demo").innerHTML = text;
