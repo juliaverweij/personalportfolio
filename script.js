@@ -37,8 +37,12 @@ var images = [
     "pictures/weblog/mandarijn.gif",
      "pictures/weblog/trinket.jpeg",
      "pictures/weblog/matcha addicts club.jpeg",
-     "pictures/weblog/appicon.jpeg",
-     "pictures/weblog/hellokitty.jpeg"
+     "pictures/weblog/muis.jpeg",
+     "pictures/weblog/hellokitty.jpg",
+     "pictures/weblog/blub.jpeg",
+     "pictures/weblog/plant.jpeg",
+     "pictures/weblog/ponyo.jpeg",
+     "pictures/weblog/space.jpeg"
    ];
    
    // this chooses a random number from all available image indices
