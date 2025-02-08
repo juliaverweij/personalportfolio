@@ -305,21 +305,94 @@ a:hover{
   transform: translate(22rem, 0);
 }
 
-#mydiv {
+.draggable {
   position: absolute;
-  z-index: 9;
-  color: blue;
-  width: 10rem;
-  background-color: hotpink;
-  text-align: center;
-  box-shadow: 0 0 3rem 1rem blue;
 }
 
+.logdate {
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: right;
+  margin-bottom: 1rem;
+}
 
+#log001{
+  padding: 1rem;
+  z-index: 0;
+  top: 10rem;
+  left: 2rem;
+  width: 27rem;
+  color: blue;
+  text-align: center;
+  box-shadow: 0 0 2rem 1rem rgba(0, 0, 255, 0.8);
+  background-color: rgb(255, 255, 255);
+}
 
+#log002{
+  position: absolute;
+  padding: 1rem;
+  z-index: 1;
+  top: 6rem;
+  left: 35rem;
+  width: 20rem;
+  min-height: 6rem;
+  color: hotpink;
+  box-shadow: 0 0 2rem 1rem rgba(255, 105, 180, 0.8);
+  background-color: rgb(255, 255, 255);
+}
 
+#log002 a{
+  color: hotpink;
+}
 
+summary {
+  display: flex;
+  cursor: pointer;
+}
 
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:hover{
+  font-style: italic;
+}
+
+.friendlist{
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+#log003{
+  padding: 1rem;
+  position: absolute;
+  z-index: 1;
+  top: 25rem;
+  left: 25rem;
+  width: 20rem;
+  min-height: 5rem;
+  color: hotpink;
+  box-shadow: 0 0 2rem 1rem rgba(255, 105, 180, 0.8);
+  background-color: rgb(255, 255, 255);
+}
+
+#log003 img{
+  width: 100%;
+  height: auto;
+}
+
+#log004{
+  padding: 1rem;
+  z-index: 0;
+  top: 30rem;
+  left: 65rem;
+  width: 23rem;
+  height: auto;
+  color: blue;
+  text-align: center;
+  box-shadow: 0 0 2rem 1rem rgba(0, 0, 255, 0.8);
+  background-color: rgb(255, 255, 255);
+}
 
 @media only screen and (max-width: 850px) {
     a:hover {
@@ -575,6 +648,59 @@ a:hover{
     width: 20rem;
     transform: translate(25rem, 0);
   }
+
  
+  #log001{
+    position: relative;
+    display: grid;
+    pointer-events: none;
+    padding: 1rem;
+    top: 5rem;
+    left: 2rem;
+    margin-bottom: 10rem;
+    width: 80vw;
+    height: auto;
+  }
+  
+  #log002{
+    position: relative;
+    display: grid;
+    pointer-events: none;
+    padding: 1rem;
+    top: 0;
+    left: 2rem;
+    margin-bottom: 5rem;
+    width: 80vw;
+    height: auto;
+  }
+   
+  summary {
+    cursor: pointer;
+    pointer-events: all;
+  }
+  
+  #log003{
+    position: relative;
+    display: grid;
+    pointer-events: none;
+    padding: 1rem;
+    top: 0;
+    left: 2rem;
+    margin-bottom: 5rem;
+    width: 80vw;
+    height: auto;
+  }
+  
+  #log004{
+    position: relative;
+    display: grid;
+    pointer-events: none;
+    padding: 1rem;
+    top: 0;
+    left: 2rem;
+    margin-bottom: 2rem;
+    width: 80vw;
+    height: auto;
+  }
 
 }
