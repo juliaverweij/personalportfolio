@@ -656,9 +656,10 @@ summary:hover{
     pointer-events: none;
     padding: 1rem;
     top: 5rem;
-    left: 2rem;
+    left: 0;
+    margin: auto;
     margin-bottom: 10rem;
-    width: 80vw;
+    width: 80%;
     height: auto;
   }
   
@@ -668,9 +669,10 @@ summary:hover{
     pointer-events: none;
     padding: 1rem;
     top: 0;
-    left: 2rem;
+    left: 0;
+    margin: auto;
     margin-bottom: 5rem;
-    width: 80vw;
+    width: 80%;
     height: auto;
   }
    
@@ -685,9 +687,10 @@ summary:hover{
     pointer-events: none;
     padding: 1rem;
     top: 0;
-    left: 2rem;
+    left: 0;
+    margin: auto;
     margin-bottom: 5rem;
-    width: 80vw;
+    width: 80%;
     height: auto;
   }
   
@@ -697,9 +700,10 @@ summary:hover{
     pointer-events: none;
     padding: 1rem;
     top: 0;
-    left: 2rem;
+    left: 0;
+    margin: auto;
     margin-bottom: 2rem;
-    width: 80vw;
+    width: 80%;
     height: auto;
   }
 
