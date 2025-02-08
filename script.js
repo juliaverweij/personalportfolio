@@ -34,10 +34,11 @@ function randomSurprise() {
 
 /*random image*/
 var images = [
-    "pictures/weblog/_ (1).gif",
+    "pictures/weblog/mandarijn.gif",
      "pictures/weblog/trinket.jpeg",
      "pictures/weblog/matcha addicts club.jpeg",
-     "pictures/weblog/app icon.jpeg"
+     "pictures/weblog/appicon.jpeg",
+     "pictures/weblog/hellokitty.jpeg"
    ];
    
    // this chooses a random number from all available image indices
