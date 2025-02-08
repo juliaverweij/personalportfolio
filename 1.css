@@ -305,6 +305,15 @@ a:hover{
   transform: translate(22rem, 0);
 }
 
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  color: blue;
+  width: 10rem;
+  background-color: hotpink;
+  text-align: center;
+  box-shadow: 0 0 3rem 1rem blue;
+}
 
 
 
@@ -384,7 +393,7 @@ a:hover{
     border: none;
     position: absolute;
     top: 2.2rem;
-    left: 0.5rem;
+    left: 0rem;
     transition: 0.5s;
   }
   
@@ -547,7 +556,7 @@ a:hover{
     border: none;
     position: absolute;
     top: 2.2rem;
-    left: 0.5rem;
+    left: 0rem;
     transition: 0.5s;
   }
   
