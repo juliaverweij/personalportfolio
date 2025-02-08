@@ -1,7 +1,12 @@
 function toggleNav(){
     document.getElementById("mySidepanel").classList.toggle('open');
     document.getElementById("btn").classList.toggle('open');
-  }
+}
+
+function toggleNavWeblog(){
+    document.getElementById("myWeblog").classList.toggle('open');
+    document.getElementById("btnWeblog").classList.toggle('open');
+}
 
 let links = [
     "https://juliaverweij.com/coffee.html",

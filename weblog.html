@@ -10,7 +10,7 @@
     <link rel="icon" href="pictures/favicon.png" type="image/x-icon">
 </head>
 <body>
-    <div id="mySidepanel" class="leftnavigation">
+    <div id="myWeblog" class="leftnavigationweblog">
         <a class="juliaverweij" href="julia.html">Julia Verweij</a>
         <br><br><br>
         <b>Archive</b>
@@ -35,41 +35,15 @@
         <br>
         <a href="#" onclick="randomSurprise()" target="self">Surprise Project! ✩</button></a>
     </div>
-    <button class="openbtn" id="btn" onclick="toggleNav()">&#9776; </button>
+    <button class="openbtnWeblog" id="btnWeblog" onclick="toggleNavWeblog()">&#9776; </button>
           
-    <div class="mainpage">
-        <div class="title">About</div>
-        <br>
-        <div class="about">
-            <img src="pictures/julia.JPG">
-            A <i>graphic designer</i> and <i>photographer</i>, interested in both <i>digital</i> and <i>printed matter</i>.
-            She is open to <i>collaboration</i>, sharing ideas and <i>connecting people</i>.
-            Her interests lie in the often boring and unseen everyday things and she is keen to shine a light on them through her work.
-            As a bonus, she loves hosting and is currently also a <i>barista</i>, which means she can make you a lovely cup of coffee.
+    <div id="webLog" class="mainpage">
+        <div class="title">Weblog</div>
         
-            <div class="notes">
-                <a href="https://www.instagram.com/juliaverweij/" target="_blank">Instagram</a>
-                <br>
-                <A HREF="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%6A%75%6C%69%61%40%76%65%72%77%65%69%6A%2D%73%6D%69%74%73%2E%6E%6C">Email</A>
-                <br>
-                <div onclick="toggleSurprise()" class="surprise">
-                    Surprise?
-                </div>
-                <div id="surpriseId">
-                    Nothing interesting to see here yet!
-
-                    <img src="pictures/GIFMaker_me (1).gif">
-                    <sub>I just really wanted a pop up window hehe</sub>
-                </div>
-                <a href="weblog.html">Weblog ⊹  ◠</a>
-            </div>
-        </div>  
-    </div>
-
     <script src="script.js">
-        function toggleNav(){
-            document.getElementById("mySidepanel").classList.toggle('open');
-            document.getElementById("btn").classList.toggle('open');
+        function toggleNavWeblog(){
+            document.getElementById("myWeblog").classList.toggle('open');
+            document.getElementById("btnWeblog").classList.toggle('open');
         }
     </script>
 </body>
