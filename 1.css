@@ -112,12 +112,17 @@ a:hover{
   height: auto;
 }
 
+.webbaseddescription{
+  font-size: 1.2rem;
+}
+
 .webdesign{
   transform: scale(75%);
   position: relative;
   left: -10rem;
   margin-top: -5rem;
 }
+
 
 .notes{
   margin-top: 3rem;
