@@ -113,6 +113,7 @@ a:hover{
 }
 
 .webbaseddescription{
+  margin-top: -5rem;
   font-size: 1.2rem;
 }
 
@@ -120,7 +121,7 @@ a:hover{
   transform: scale(75%);
   position: relative;
   left: -10rem;
-  margin-top: -5rem;
+  margin-top: -4rem;
 }
 
 
