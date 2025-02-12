@@ -14,7 +14,7 @@ function toggleNavWeblog(){
 let links = [
     "https://juliaverweij.com/coffee.html",
     "https://juliaverweij.com/doors.html",
-    "https://juliaverweij.com/paperjam.html",,
+    "https://juliaverweij.com/paperjam.html",
     "https://juliaverweij.com/black-on-black.html",
     "https://juliaverweij.com/do-you-have-the-time.html",
     "https://juliaverweij.com/frustratie,opluchting.html",
@@ -23,7 +23,8 @@ let links = [
     "https://juliaverweij.com/nerves-common-sense.html",
     "https://juliaverweij.com/one-step-at-a-time.html",
     "https://juliaverweij.com/portraits.html",
-    "https://juliaverweij.com/unfamiliar.html"
+    "https://juliaverweij.com/unfamiliar.html",
+    "https://juliaverweij.com/webdesign.html",
 ];
 let randompage = Math.floor(Math.random() * links.length);
 let surprisepage = links[randompage];
