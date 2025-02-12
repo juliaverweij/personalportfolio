@@ -19,7 +19,7 @@
         <li><a href="portraits.html">&nbsp;&nbsp;Portraits</a></li>
         <li><a href="coffee.html">&nbsp;&nbsp;Title Unknown / Coffee</a></li>
         <li><a href="navigating-navigation.html">&nbsp;&nbsp;Navigating Navigation</a></li>
-        <li><a href="unfamiliar.html">&nbsp;&nbsp;(Un)familiar</a></li>
+        <b><li><a href="unfamiliar.html">&nbsp;&nbsp;(Un)familiar</a></li></b>
         <li><a href="nerves-common-sense.html">&nbsp;&nbsp;Nerves &amp; Common Sense</a></li>
         <li><a href="one-step-at-a-time.html">&nbsp;&nbsp;One Step at a Time</a></li>
         <li><a href="do-you-have-the-time.html">&nbsp;&nbsp;Do You Have the Time?</a></li>
@@ -36,42 +36,51 @@
         <a href="#" onclick="randomSurprise()" target="self">Surprise Project! ✩</button></a>
     </div>
     <button class="openbtn" id="btn" onclick="toggleNav()">&#9776; </button>
-          
-    <div class="mainpage">
-        <div class="title">About</div>
-        <br>
-        <div class="about">
-            <img src="pictures/julia.JPG">
-            A <i>graphic designer</i> and <i>photographer</i>, interested in both <i>digital</i> and <i>printed matter</i>.
-            She is open to <i>collaboration</i>, sharing ideas and <i>connecting people</i>.
-            Her interests lie in the often boring and unseen everyday things and she is keen to shine a light on them through her work.
-            As a bonus, she loves hosting and is currently also a <i>barista</i>, which means she can make you a lovely cup of coffee.
-        
-            <div class="notes">
-                <a href="https://www.instagram.com/juliaverweij/" target="_blank">Instagram</a>
-                <br>
-                <A HREF="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%6A%75%6C%69%61%40%76%65%72%77%65%69%6A%2D%73%6D%69%74%73%2E%6E%6C">Email</A>
-                <br>
-                <div onclick="toggleSurprise()" class="surprise">
-                    Surprise?
-                </div>
-                <div id="surpriseId">
-                    Nothing interesting to see here yet!
 
-                    <img src="pictures/GIFMaker_me (1).gif">
-                    <sub>I just really wanted a pop up window hehe</sub>
-                </div>
-                <a href="weblog.html">Weblog ⊹  ◠</a>
+    <div class="mainpage">
+        <div class="title">Web-based Design</div>
+        <br>
+        <div class="descriptionwebdesign">
+            A selection of web-based projects showcasing my progress of learning to code. 
             </div>
 
-        </div>  
-    </div>
+        A website/store to showcase my collaborative project <a rel="history" href="paperjam.html">PAPERJAM</a>:
+        <div class="row">
+            <div style="--ratio: 1.6 / 1;" class="item">
+                <iframe class="webdesign" width="128%" height="100%" src="https://paperjamstudio.com/"></iframe>
+            </div>
+        </div>
 
+        An interactive website that takes the viewer through various pages which tell a poem by Erik Solvanger:
+        <div class="row">
+            <div style="--ratio: 1.7 / 1;" class="item">
+                <iframe class="webdesign" width="128%" height="100%" src="https://a-cup-of-milk.glitch.me/"></iframe>
+            </div>
+        </div>
+        
+        A website to explain how to do your own gelnails:
+        <div class="row">
+            <div style="--ratio: 1.33 / 1;" class="item">
+                <iframe class="webdesign" width="128%" height="100%" src="https://howto-gelnails.glitch.me/"></iframe>
+            </div>
+        </div>
+
+        An interactive website that guides the viewer through a story about climate change, from the perspective of something non-human:
+        <div class="row">
+            <div style="--ratio: 1.33 / 1;" class="item">
+                <iframe class="webdesign" width="128%" height="100%" src="https://designresearch000.glitch.me/"></iframe>
+            </div>
+        </div>
+
+        
+
+    </div>
     <script src="script.js">
         function toggleNav(){
-            document.getElementById("mySidepanel").classList.toggle('open');
-            document.getElementById("btn").classList.toggle('open');
+          document.getElementById("mySidepanel").classList.toggle('open');
+          document.getElementById("btn").classList.toggle('open');
         }
-    </script>
+      </script>
 </body>
 </html>
+
