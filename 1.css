@@ -653,6 +653,14 @@ summary:hover{
     font-size: 1.4rem;
   }
 
+  .descriptionwebdesign{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+  }
+
   .leftnavigationweblog{
     color: hotpink;
     list-style-type: none;
