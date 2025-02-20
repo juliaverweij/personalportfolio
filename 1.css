@@ -267,7 +267,13 @@ a:hover{
 }
 
 .weblog{
-  background-color:rgb(255, 243, 250)
+  background-image: url("/Users/juliaverweij/Downloads/background.jpg");
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
 }
 
 #webLog {
@@ -356,7 +362,7 @@ a:hover{
   color: blue;
   text-align: center;
   border: 0.1rem solid blue;
-  box-shadow: 0 0 0.5rem 0.2rem rgba(169, 169, 169, 0.8);
+  box-shadow: 0 0 0.5rem 0.2rem rgb(255, 255, 255);
   background-color: rgb(255, 255, 255);
 }
 
@@ -370,7 +376,7 @@ a:hover{
   min-height: 6rem;
   color: hotpink;
   border: 0.3rem double hotpink;
-  box-shadow: 0 0 0.5rem 0.2rem rgba(169, 169, 169, 0.8);
+  box-shadow: 0 0 0.5rem 0.2rem rgb(255, 255, 255);
   background-color: rgb(255, 255, 255);
 }
 
@@ -416,16 +422,11 @@ summary:hover{
 }
 
 #log004{
-  padding: 1rem;
   z-index: 0;
-  top: 30rem;
-  left: 75rem;
-  width: 23rem;
+  top: 25rem;
+  left: 72rem;
+  width: 15rem;
   height: auto;
-  color: blue;
-  text-align: center;
-  box-shadow: 0 0 0.5rem 0.2rem rgba(0, 0, 255, 0.8);
-  background-color: rgb(255, 255, 255);
 }
 
 #log005{
@@ -438,13 +439,45 @@ summary:hover{
   color: blue;
   border: 0.2rem dotted blue;
   text-align: center;
-  box-shadow: 0 0 0.5rem 0.2rem rgba(169, 169, 169, 0.8);
+  box-shadow: 0 0 0.5rem 0.2rem rgb(255, 255, 255);
   background-color: rgb(255, 255, 255);
 }
 
 #log005 img{
   width: 80%;
   margin-bottom: 1rem;
+}
+
+#log006{
+  z-index: 999;
+  top: 42rem;
+  left: 50rem;
+  width: 14rem;
+  height: auto;
+}
+
+#log007{
+  z-index: 999;
+  top: 2rem;
+  left: 45rem;
+  width: 10rem;
+  height: auto;
+}
+
+#log008{
+  z-index: 999;
+  top: 25rem;
+  left: 4rem;
+  width: 12rem;
+  height: auto;
+}
+
+#log009{
+  z-index: 999;
+  top: 8rem;
+  left: 40rem;
+  width: 18rem;
+  height: auto;
 }
 
 @media only screen and (max-width: 850px) {
