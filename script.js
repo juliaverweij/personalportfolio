@@ -1,4 +1,19 @@
-/* side nav toggle mobile:*/
+document.body.onmousemove = function(e) {
+    document.documentElement.style.setProperty (
+      '--x', (
+        e.clientX+window.scrollX
+      )
+      + 'px'
+    );
+    document.documentElement.style.setProperty (
+      '--y', (
+        e.clientY+window.scrollY
+      ) 
+      + 'px'
+    );
+  }
+  
+  /* side nav toggle mobile:*/
 function toggleNav(){
     document.getElementById("mySidepanel").classList.toggle('open');
     document.getElementById("btn").classList.toggle('open');
