@@ -288,7 +288,7 @@ a:hover{
 }
 
 .weblog{
-  background-image: url("/Users/juliaverweij/Downloads/background.jpg");
+  background-image: url("pictures/backgroundweblog.jpg");
   width: 100%;
   height: auto;
   background-repeat: no-repeat;
@@ -428,7 +428,7 @@ summary:hover{
   padding: 1rem;
   position: absolute;
   z-index: 1;
-  top: 25rem;
+  top: 22rem;
   left: 25rem;
   width: 15rem;
   min-height: 5rem;
@@ -471,8 +471,8 @@ summary:hover{
 
 #log006{
   z-index: 999;
-  top: 42rem;
-  left: 50rem;
+  top: 40rem;
+  left: 32rem;
   width: 14rem;
   height: auto;
 }
@@ -496,9 +496,24 @@ summary:hover{
 #log009{
   z-index: 999;
   top: 8rem;
-  left: 40rem;
+  left: 45rem;
   width: 18rem;
   height: auto;
+}
+
+#log010{
+  position: absolute;
+  padding: 1rem;
+  z-index: 1;
+  top: 28rem;
+  left: 42rem;
+  width: 26rem;
+  min-height: 6rem;
+  color: hotpink;
+  text-align: center;
+  border: 0.3rem double hotpink;
+  box-shadow: 0 0 0.5rem 0.2rem rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
 
 @media only screen and (max-width: 850px) {
