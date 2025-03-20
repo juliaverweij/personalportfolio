@@ -486,7 +486,7 @@ summary:hover{
 }
 
 #log008{
-  z-index: 999;
+  z-index: 0;
   top: 25rem;
   left: 4rem;
   width: 12rem;
