@@ -254,6 +254,14 @@ a:hover{
   font-size: 2.4rem;
 }
 
+.descriptionhue{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+  margin-right: 16rem;
+  font-size: 2.4rem;
+}
+
 .homepage img {
     width: 100%;
     height: auto;
@@ -734,6 +742,14 @@ summary:hover{
   }
 
   .descriptionwebdesign{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+  }
+
+  .descriptionhue{
     margin-top: 2rem;
     margin-bottom: 3rem;
     margin-left: 1rem;
