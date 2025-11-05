@@ -363,12 +363,12 @@ a:hover{
 .openbtnWeblog.open{
   position: absolute;
   text-align: center;
-  top: 2rem;
+  top: 2.2rem;
   transform: translate(17rem, 0) rotate(90deg);
 }
 
 .leftnavigationweblog.open{
-  width: 18rem;
+  width: 23rem;
   transform: translate(22rem, 0);
 }
 
