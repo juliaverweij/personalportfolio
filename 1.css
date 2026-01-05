@@ -486,7 +486,7 @@ summary:hover{
   z-index: 0;
   top: 10rem;
   left: 65rem;
-  width: 12rem;
+  width: 27rem;
   height: auto;
   color: blue;
   border: 0.2rem dotted blue;
@@ -496,7 +496,7 @@ summary:hover{
 }
 
 #log005 img{
-  width: 80%;
+  width: 30%;
   margin-bottom: 1rem;
 }
 
