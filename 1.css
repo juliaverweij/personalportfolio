@@ -446,6 +446,13 @@ summary:hover{
   margin-top: 1rem;
   margin-left: 1.5rem;
   text-align: left;
+  columns: 2;
+}
+
+.previousreads{
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  text-align: left;
 }
 
 #log003{
