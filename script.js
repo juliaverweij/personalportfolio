@@ -79,7 +79,10 @@ var images = [
    // make the URL into a proper image tag
    var image = "<img src='" + randomImage + "'>";
    // append to the div
-   document.getElementById("randomimage").innerHTML = image;
+  var randomImageDiv = document.getElementById("randomimage");
+  if (randomImageDiv) {
+    randomImageDiv.innerHTML = image;
+  }
 
 /* draggable*/
 var draggableElements = document.getElementsByClassName("draggable");
@@ -124,13 +127,15 @@ function dragElement(elmnt) {
 
 /* surprise toggle*/
 const surprise = document.getElementById("surpriseId");
-const toggleSurprise = () => surprise.classList.toggle("show");
+const toggleSurprise = () => {
+  if (surprise) surprise.classList.toggle("show");
+};
 
 window.onclick = (event) => {
-    if (!event.target.matches('.surprise')) {
-        if(surprise.classList.contains('show')){
-            surprise.classList.remove('show')
-        }
+  if (!event.target.matches('.surprise')) {
+    if (surprise && surprise.classList.contains('show')) {
+      surprise.classList.remove('show');
     }
-}
-surprise.addEventListener('click', (event) => event.stopPropagation());
+  }
+};
+if (surprise) surprise.addEventListener('click', (event) => event.stopPropagation());
