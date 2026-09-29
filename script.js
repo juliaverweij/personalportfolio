@@ -13,6 +13,11 @@ document.body.onmousemove = function(e) {
     );
   }
   
+  /* image show on hover*/
+function toggleImage() {
+  $(".hiddenclickimg").toggle();
+};
+
   /* side nav toggle mobile:*/
 function toggleNav(){
     document.getElementById("mySidepanel").classList.toggle('open');
@@ -25,21 +30,28 @@ function toggleNavWeblog(){
     document.getElementById("btnWeblog").classList.toggle('open');
 }
 
+function toggleCV() {
+  var x = document.getElementById("cv");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
 /* random page:*/
 let links = [
-    "https://juliaverweij.com/coffee.html",
-    "https://juliaverweij.com/doors.html",
     "https://juliaverweij.com/paperjam.html",
-    "https://juliaverweij.com/black-on-black.html",
-    "https://juliaverweij.com/do-you-have-the-time.html",
-    "https://juliaverweij.com/frustratie,opluchting.html",
+    "https://juliaverweij.com/riso.html",
     "https://juliaverweij.com/gallery.html",
-    "https://juliaverweij.com/navigating-navigation.html",
-    "https://juliaverweij.com/nerves-common-sense.html",
-    "https://juliaverweij.com/one-step-at-a-time.html",
+    "https://juliaverweij.com/rei.html",
+    "https://juliaverweij.com/hue.html",
     "https://juliaverweij.com/portraits.html",
-    "https://juliaverweij.com/unfamiliar.html",
-    "https://juliaverweij.com/webdesign.html",
+    "https://juliaverweij.com/ourmur.html",
+    "https://juliaverweij.com/coffee.html",   
+    "https://juliaverweij.com/nerves-common-sense.html",
+    "https://juliaverweij.com/do-you-have-the-time.html",
+    "https://juliaverweij.com/doors.html"
 ];
 let randompage = Math.floor(Math.random() * links.length);
 let surprisepage = links[randompage];
